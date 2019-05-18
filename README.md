@@ -1,6 +1,8 @@
 # gpio
 ## Wiring
 
+### source: https://tutorials-raspberrypi.com/raspberry-pi-ultrasonic-sensor-hc-sr04/
+
 There are four pins on the ultrasound module that are connected to the Raspberry:
 
 * VCC to Pin 2 (VCC)

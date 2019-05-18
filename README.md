@@ -1,5 +1,5 @@
 # gpio
-Wiring
+## Wiring
 
 There are four pins on the ultrasound module that are connected to the Raspberry:
 
@@ -10,7 +10,9 @@ There are four pins on the ultrasound module that are connected to the Raspberry
 
 We do this because the GPIO pins only tolerate maximal 3.3V. The connection to GND is to have a obvious signal on GPIO24. If no pulse is sent, the signal is 0 (through the connection with GND), else it is 1. If there would be no connection to GND, the input would be undefined if no signal is sent (randomly 0 or 1), so ambiguous.
 
-Here is the structure as a circuit diagram:
+## Here is the structure as a circuit diagram:
 
-https://tutorials-raspberrypi.de/wp-content/uploads/2014/05/ultraschall_Steckplatine.png
+![GitHub Logo](https://tutorials-raspberrypi.de/wp-content/uploads/2014/05/ultraschall_Steckplatine.png)
+
+
 
